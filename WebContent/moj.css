@@ -1,0 +1,108 @@
+a {
+  color:inherit;
+  text-decoration: none;
+  text-decoration: underline;
+ }
+ 
+body
+{
+	background-color:#2F4F4F;
+	font-size:12px;
+	font-family: 'Lato', sans-serif;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#31b75c; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color:white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+h1
+{
+	font-size:52px;
+	color:#FF8C00;
+	
+}
+h2
+{
+	
+	color:#FF8C00;
+	
+}
+
+h7
+{
+	font-size:16px;
+}
+
+#top
+{
+	background-color:white;
+	width:100%;
+	text-align:center;
+}
+
+#content
+{
+	 border-style: solid;
+    border-color: #31b75c;
+	background-color:#FF8C00;
+	position:absolute;
+    left:25%;
+    top:20%;
+    width:50%;
+    height:auto;
+    margin-left:-10px; /* -1/2 width */
+    margin-top:-10px; /* -1/2 height */
+}
+#content2
+{
+	 border-style: solid;
+    border-color: #31b75c;
+	background-color:#FF8C00;
+	position:absolute;
+    left:5%;
+    right:5%;
+    top:20%;
+    width:auto;
+    height:auto;
+    margin-left:-10px; /* -1/2 width */
+    margin-top:-10px; /* -1/2 height */
+}
+
+#loginContent
+{
+	background-color:#FF8C00;
+	position:absolute;
+    left:35%;
+    top:20%;
+    width:30%;
+    height:auto;
+}
+
+#butBar
+{
+	text-decoration:none;
+	height:30px;
+	text-align:left;
+	color:white;
+	width:100%;
+	background:#FF8C00; 
+	font-size:19px;
+}
+#tab { display:inline-block; 
+       margin-left: 40px; }
+
+textarea
+{
+	font-family: 'Lato', sans-serif;
+}
